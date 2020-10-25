@@ -50,3 +50,13 @@ I've also decided my current microphones available to me are not fit for purpose
 What else does one need to do in the year 2020 to start an online presence and brand?
 
 Going to try and keep my identity anonymous to prevent the online mobs from trying to #cancel me and ruin my life for an inappropriate tweet or comment.
+
+After publishing this page to github and then scanning it with an SEO checker looks like I have some work to do to improve my Search Engine Optimisation :
+
+"Your web page failed on 5 high priority checks:
+Heading Tags Test, Social Media Test, Keywords Usage Test, Meta Description Test, URL Canonicalization Test"
+- <a href="https://seositecheckup.com/seo-audit/n3ts3nd.github.io/2020/10/25/25th-October-2020.html">Seositecheckup.com/seo-audit/n3ts3nd.github.io/2020/10/25/25th-October-2020.html</a>
+
+I'll work on that another day, for now creating content on a regular schedule is the top priority, and not leaving this web page a barron
+waste land with only one optimistic initial post.
+
