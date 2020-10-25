@@ -4,3 +4,6 @@ title: "N3TS3ND" # the name of your site, e.g. ACME Corp.
 
 disqus:
     shortname: n3ts3nd
+
+plugins:
+    - jekyll-seo-tag
