@@ -6,6 +6,6 @@ body { font-family: Helvetica Neue,Roboto,-apple-system,BlinkMacSystemFont,Helve
 
 a { color: #33C3F0; }
 
-ul { padding-inline-start: 0px; list-style-type: none; }
+ul.post-list { padding-inline-start: 0px; list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */

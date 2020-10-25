@@ -1,4 +1,5 @@
 ---
+title: "What is N3TS3ND?"
 layout: post
 comments: true
 ---
@@ -59,4 +60,9 @@ Heading Tags Test, Social Media Test, Keywords Usage Test, Meta Description Test
 
 I'll work on that another day, for now creating content on a regular schedule is the top priority, and not leaving this web page a barron
 waste land with only one optimistic initial post.
+
+A few ideas for my future posts :
+
+* Writing posts about my health tracker I'm writing in Python and Django.
+* Writing a post about looking into generating Youtube videos from Reddit content using Python
 
