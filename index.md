@@ -4,9 +4,7 @@ title: HOME
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <h1>{{ site.title }}</h1>
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}

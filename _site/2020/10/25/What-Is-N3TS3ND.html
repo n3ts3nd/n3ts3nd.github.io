@@ -73,10 +73,35 @@ waste land with only one optimistic initial post.</p>
 <p>A few ideas for my future posts :</p>
 
 <ul>
-  <li>Writing posts about my health tracker I’m writing in Python and Django.</li>
+  <li>Writing posts about my health tracker I’m writing in Python and Django (I’m a beginner programmer so more an exercise in learning than anything)</li>
   <li>Writing a post about looking into generating Youtube videos from Reddit content using Python</li>
 </ul>
 
+<p>I’ve created a Makefile to make it easy to publish the content using the correct git username and email :</p>
+
+<p>to run the blog locally to view it :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make run
+</code></pre></div></div>
+
+<p>to publish to github pages :</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make publish
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.PHONY: run
+run:
+	@jekyll serve
+
+.PHONY: publish
+publish:
+	@git config user.name "N3TS3ND" &amp;&amp; \
+	git config user.email "n3ts3nd@protonmail.com" &amp;&amp; \
+	git add --all &amp;&amp; git commit -m "Updates" &amp;&amp; git push
+
+</code></pre></div></div>
+
+<p>To easy! I need to remove as many barriers as possible to writing and publishing.</p>
 
   </div>
 
