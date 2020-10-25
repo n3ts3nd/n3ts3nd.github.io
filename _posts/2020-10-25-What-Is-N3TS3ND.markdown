@@ -65,6 +65,7 @@ A few ideas for my future posts :
 
 * Writing posts about my health tracker I'm writing in Python and Django (I'm a beginner programmer so more an exercise in learning than anything)
 * Writing a post about looking into generating Youtube videos from Reddit content using Python
+* scripts to automate publishing posts to social media
 
 I've created a Makefile to make it easy to publish the content using the correct git username and email :
 
