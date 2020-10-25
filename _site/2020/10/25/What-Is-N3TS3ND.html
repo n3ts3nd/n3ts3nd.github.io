@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>What is N3TS3ND? - N3TS3ND</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css">
+
     <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>What is N3TS3ND? | N3TS3ND</title>
 <meta name="generator" content="Jekyll v4.1.1" />
@@ -20,7 +22,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="What is N3TS3ND?" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/2020/10/25/What-Is-N3TS3ND.html","headline":"What is N3TS3ND?","dateModified":"2020-10-25T00:00:00+11:00","datePublished":"2020-10-25T00:00:00+11:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/10/25/What-Is-N3TS3ND.html"},"description":"Rainy day today, time to stay in doors and do some work on the computer.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/10/25/What-Is-N3TS3ND.html"},"url":"http://localhost:4000/2020/10/25/What-Is-N3TS3ND.html","headline":"What is N3TS3ND?","dateModified":"2020-10-25T00:00:00+11:00","datePublished":"2020-10-25T00:00:00+11:00","description":"Rainy day today, time to stay in doors and do some work on the computer.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -107,19 +109,20 @@ waste land with only one optimistic initial post.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make publish
 </code></pre></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.PHONY: run
-run:
-	@jekyll serve
+<div class="language-make highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">.PHONY</span><span class="o">:</span> <span class="nf">run</span>
+<span class="nl">run</span><span class="o">:</span>
+	<span class="p">@</span>jekyll serve
 
-.PHONY: publish
-publish:
-	@git config user.name "N3TS3ND" &amp;&amp; \
-	git config user.email "n3ts3nd@protonmail.com" &amp;&amp; \
-	git add --all &amp;&amp; git commit -m "Updates" &amp;&amp; git push
+<span class="nl">.PHONY</span><span class="o">:</span> <span class="nf">publish</span>
+<span class="nl">publish</span><span class="o">:</span>
+	<span class="p">@</span>git config user.name <span class="s2">"N3TS3ND"</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+	git config user.email <span class="s2">"n3ts3nd@protonmail.com"</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+	git add <span class="nt">--all</span> <span class="o">&amp;&amp;</span> git commit <span class="nt">-m</span> <span class="s2">"Updates"</span> <span class="o">&amp;&amp;</span> git push
 
 </code></pre></div></div>
 
 <p>To easy! I need to remove as many barriers as possible to writing and publishing.</p>
+
 
   </div>
 

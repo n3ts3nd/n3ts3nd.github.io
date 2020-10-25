@@ -80,7 +80,7 @@ to publish to github pages :
 make publish
 ```
 
-```
+```make
 .PHONY: run
 run:
 	@jekyll serve
@@ -94,3 +94,5 @@ publish:
 ```
 
 To easy! I need to remove as many barriers as possible to writing and publishing.
+
+
