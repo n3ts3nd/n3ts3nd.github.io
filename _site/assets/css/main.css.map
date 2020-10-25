@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n\nbody {\n    font-family: Helvetica Neue,Roboto,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;\n    font-size: 16px\n}\n@media (min-width:1000px) {\n    body {\n        margin-left: 20%;\n        margin-right: 20%;\n    }\n}\na {\n    color:#33C3F0;\n}\n\nul {\n    padding-inline-start: 0px;\n    list-style-type: none;\n}",
+		"$backgroundColor: #ffffff;\n$bodyColor: #000000;\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n\nbody {\n  background: $backgroundColor;\n  color: $bodyColor;\n  font-family: $bodyFont;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI;;ADND,AAAA,IAAI,CAAC,EACD,WAAW,EAAE,iFAAiF,EAC9F,SAAS,EAAE,IACf,GAAC;;AACD,MAAM,oBACF,GAAA,AAAA,IAAI,CAAC,EACD,WAAW,EAAE,GAAG,EAChB,YAAY,EAAE,GAAG,GACpB,EAAA;;AAEL,AAAA,CAAC,CAAC,EACE,KAAK,EAAC,OAAO,GAChB;;AAED,AAAA,EAAE,CAAC,EACC,oBAAoB,EAAE,GAAG,EACzB,eAAe,EAAE,IAAI,GACxB"
+}
