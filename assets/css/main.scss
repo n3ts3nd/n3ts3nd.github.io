@@ -28,10 +28,11 @@ p {
     padding-bottom: 10px;
 }
 
-img {
-
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(5px 5px 5px #222);
+.post-content {
+    img {
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(5px 5px 5px #222);
+    }
   }
 
 .blog-title{

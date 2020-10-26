@@ -4,7 +4,7 @@ title: HOME
 ---
 
 <div class="home">
-  <h1>{{ site.title }}</h1>
+  <h1>{{ site.title }} {% include social.html %}</h1>
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -29,7 +29,6 @@ title: HOME
     </ul>
 
   {%- endif -%}
-
-{% include social.html %}
+<hr>
 
 </div>
