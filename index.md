@@ -30,4 +30,6 @@ title: HOME
 
   {%- endif -%}
 
+{% include social.html %}
+
 </div>

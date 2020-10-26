@@ -84,4 +84,4 @@ I've installed the [SEOInfo Chrome Plugin](https://chrome.google.com/webstore/de
 
 so I can scan new pages as I upload them to look for any improvements I can do for SEO.
 
-At the bottom I've added the Word Count, people recommend trying to hit a certain word count as pages with short counts might be ranked lower. Also you want the majority of your content to be original, not copying and pasting large amounts of text from other websites and it will not be favoured by search engines.
+At the bottom I've added the Word Count, people recommend trying to hit a certain word count as pages with short counts might be ranked lower. Also you want the majority of your content to be original, not copying and pasting large amounts of text from other websites as it will not be favoured by search engines.
