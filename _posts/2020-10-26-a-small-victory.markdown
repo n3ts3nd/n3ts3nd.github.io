@@ -44,7 +44,7 @@ I think maybe it's because during this pandemic lockdown I'm stuck in a small ap
 
 I've also worked a little bit on my Search Engine Optimisation for this blog.
 
-I installed the jekyll-seo-tag jekyll plugin which will generate the meta information for the page which is read by Search engines, right click the page and select view source and you should see the following :
+I installed the `jekyll-seo-tag` jekyll plugin which will generate the meta information for the page which is read by Search engines, right click the page and select view source and you should see the following :
 
 ```
 <!-- Begin Jekyll SEO tag v2.7.1 -->
@@ -77,7 +77,7 @@ I also added in some GEO location information to tell the search engines I'm loc
 
 <center>
 That's using the old noodle.<br>
-<img src="/assets/img/pointing-to-head.jpg" width="80%">
+<img src="/assets/img/pointing-to-head.jpg" width="100%">
 </center>
 
 I've installed the [SEOInfo Chrome Plugin](https://chrome.google.com/webstore/detail/seoinfo/ppbdklaincgliegpfolkjjfncpgobneb/related)
