@@ -7,8 +7,11 @@ disqus:
 
 plugins:
     - jekyll-seo-tag
+    - jekyll-sitemap
 
 markdown: kramdown
 kramdown:
     input: GFM
     syntax_highlighter: rouge
+
+permalink: /:slug
