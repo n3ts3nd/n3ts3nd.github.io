@@ -18,9 +18,7 @@ I have a Rode mic pro but it has a very short cable so I'm thinking about buying
 
 After watching this Youtube video I'm thinking maybe the SmartLav is the way to go, seems to have respectable audio quality, is cheaper and is a lot more versatile and portable then the large and bulky Yeti mic.
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2dP-khI4w3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+{% include youtubePlayer.html id="2dP-khI4w3I" %}
 
 Then when I have a mic I might make an attempt at making some youtube videos. I wouldn't mind reviewing some of my favourite youtubers, I've found during the coronavirus lockdown I've been watching a lot of [TechLead](https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw) videos, he's a software engineer and has a very dry humour which I find hilarious.
 
@@ -28,16 +26,17 @@ Then when I have a mic I might make an attempt at making some youtube videos. I 
 
 I've also found a new appreciation for restoration videos, I basically watched every episode of Rust Valley Restorers on Netflix :
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/d_X5OFEW2mE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+{% include youtubePlayer.html id="d_X5OFEW2mE" %}
 
 watching random videos like this of a guy in Switzerland restoring a 1891 German ''Weltrekord'' Ratchet Screwdriver
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/JmSXo0XdWoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+{% include youtubePlayer.html id="JmSXo0XdWoA" %}
+
 
 and then finally watching videos of people restoring entire buildings like Modustrial Maker
 who has bought a cheap building in chicago and is renovating it and documenting the process
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ymFsfZy738w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+{% include youtubePlayer.html id="ymFsfZy738w" %}
 
 I think maybe it's because during this pandemic lockdown I'm stuck in a small apartment and don't have a garage or tool shed to play around in and build things so I'm left with watching people on youtube do it.
 
@@ -84,3 +83,5 @@ That's using the old noodle.<br>
 I've installed the [SEOInfo Chrome Plugin](https://chrome.google.com/webstore/detail/seoinfo/ppbdklaincgliegpfolkjjfncpgobneb/related)
 
 so I can scan new pages as I upload them to look for any improvements I can do for SEO.
+
+At the bottom I've added the Word Count, people recommend trying to hit a certain word count as pages with short counts might be ranked lower. Also you want the majority of your content to be original, not copying and pasting large amounts of text from other websites and it will not be favoured by search engines.
