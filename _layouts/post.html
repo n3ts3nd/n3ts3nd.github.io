@@ -1,24 +1,55 @@
----
-layout: default
----
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="blog-title"><a href="/">{{ site.title }}</a> {% include social.html %}</div>
-  <h1>{{ page.title | escape }}</h1>
-  {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}
-  <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-    {{ page.date | date: date_format }}
-  </time>
-    <span class="post-meta">{{ post.date | date: date_format }}</span>
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header.html %}
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  <main class="main pt-4" role="main">
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+    <div class="container">
 
-Word Count : {{ content | number_of_words }}
+      <div class="row">
+        <div class="col-md-9">
 
-{% if site.disqus.shortname %}
-  {% include disqus_comments.html %}
-{% endif %}
+          <article class="card mb-4">
+		  
+            <header class="card-header text-center">
+			{% if page.date %}
+              <div class="card-meta">
+                <span>Published on {{ page.date | date_to_string}}</time></span>{% endif %} in
+                  {% if post %}
+                    {% assign categories = post.categories %}
+                  {% else %}
+                    {% assign categories = page.categories %}
+                  {% endif %}
+                  {% for category in categories %}
+                  <a href="{{ site.baseurl }}/categories/#{{category|slugize}}">{{category}}</a>
+                  {% unless forloop.last %}&nbsp;{% endunless %}
+                  {% endfor %}
+              <div>
+			
+                <h1 class="card-title">{{ page.title }}</h1>
+
+            </header>
+			
+			{% if page.image %}
+            <a style="cursor:pointer;">
+              <img class="card-img" src="{{ site.baseurl }}/img/{{ page.image }}" alt="" />
+            </a>
+            {% endif %}
+            
+            <div class="card-body">
+			{{ content }}
+            <hr />
+			{% include disqus.html %}
+		<hr />		    
+            </div>
+          </article><!-- /.card -->
+        </div>
+		{% include sidebar.html %}	
+      </div>
+    </div>
+  </main>
+{% include footer.html %}
+</body>
+</html>

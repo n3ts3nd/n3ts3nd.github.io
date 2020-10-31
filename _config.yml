@@ -1,17 +1,32 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "N3TS3ND" # the name of your site, e.g. ACME Corp.
+title: "N3TS3ND"
 
-disqus:
-    shortname: n3ts3nd
-
-plugins:
-    - jekyll-seo-tag
-    - jekyll-sitemap
-
+#about: ""
 markdown: kramdown
-kramdown:
-    input: GFM
-    syntax_highlighter: rouge
+url: ""
+baseurl: ""
+disqus_short_name: n3ts3nd
+
+plugins: 
+  - jekyll-paginate
+  - jemoji
+  
+paginate_path: "/page:num/"
+
+paginate: 5
+
+main_toc:
+  - title: Home
+    url: ""
+  # - title: About
+  #   url: "about"
+  # - title: Author
+  #   url: "author"
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "post"
 
 permalink: /:slug

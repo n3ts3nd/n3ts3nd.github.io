@@ -2,6 +2,7 @@
 title: "A Small Victory"
 layout: post
 comments: true
+categories: ["video-editing"]
 ---
 
 ## Fixing Davinci Resolve

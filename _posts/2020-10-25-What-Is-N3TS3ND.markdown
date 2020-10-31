@@ -2,6 +2,7 @@
 title: "What is N3TS3ND?"
 layout: post
 comments: true
+categories: ["jekyll"]
 ---
 
 Rainy day today, time to stay in doors and do some work on the computer.
@@ -17,12 +18,12 @@ Normally when I start one of these endeavours I normally head over to [Namecheck
 There's also a personal story of mine around the name `net send` which I'll get around to telling one day.
 
 
-<img src="/assets/img/namecheckr.png" width="100%">
+<img src="/img/namecheckr.png" width="100%">
 
 So far I have thought up a username I'll go with which is N3TS3ND, it's available on all the social media platforms and when I search for that word on google it says "It looks like there aren't many great matches for your search" so effectively I will be able to easily rank for this word on google as there is no competition.
 
 
-<img src="/assets/img/google-no-matches.png" width="100%">
+<img src="/img/google-no-matches.png" width="100%">
 
 So far I've registered an email address <a href="mailto:N3TS3ND@protonmail.com">N3TS3ND@protonmail.com</a>
  , I've chosen Protonmail because I'm trying to detach myself from Googles monopolistic tentacles, they already know enough stuff about me.
@@ -46,7 +47,7 @@ Now that I've got 50 different accounts created with my new username I'll have t
 I've also decided my current microphones available to me are not fit for purpose so I was thinking of going to JB-HiFi and splashing out on a <a href="https://www.jbhifi.com.au/products/blue-yeti-usb-microphone-blackout">Blue Yeti USB Microphone</a>, seems to be the usb microphone all the cool kids are using. Note to self, everytime I link to a product insert an affiliate link so I can make some sweet moolah. I wish Australian companies would get onboard with providing affiliate links so I could insert them in urls.
 
 
-<a href="https://www.jbhifi.com.au/products/blue-yeti-usb-microphone-blackout"><img src="/assets/img/usb-yeti-mic.png" width="100%"></a>
+<a href="https://www.jbhifi.com.au/products/blue-yeti-usb-microphone-blackout"><img src="/img/usb-yeti-mic.png" width="100%"></a>
 
 What else does one need to do in the year 2020 to start an online presence and brand?
 
